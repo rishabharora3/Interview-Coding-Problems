@@ -2,7 +2,7 @@
 class TwoSumOpt {
 
     fun twoSum(nums: IntArray, target: Int): IntArray? {
-        val hashmap: MutableMap<Int, Int> = mutableMapOf()
+        val hashmap = mutableMapOf<Int, Int>()
         for (i in nums.indices) {
             if (hashmap.containsKey(target - nums[i]) && hashmap[target - nums[i]] != i) {
                 val arr = IntArray(2)

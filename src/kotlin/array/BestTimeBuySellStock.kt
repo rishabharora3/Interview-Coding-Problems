@@ -9,7 +9,6 @@ class BestTimeBuySellStock {
                 minNum = item
             } else if (item - minNum > profit) {
                 profit = item - minNum
-
             }
         }
         return profit
