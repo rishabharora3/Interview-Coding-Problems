@@ -1,5 +1,3 @@
-package kotlin.array
-
 class BestTimeBuySellStock {
     fun maxProfit(prices: IntArray): Int {
         var minNum = Integer.MAX_VALUE

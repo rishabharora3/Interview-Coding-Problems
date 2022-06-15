@@ -1,4 +1,4 @@
-package kotlin.array
+
 
 class ProductExceptSelf {
     fun productExceptSelf(nums: IntArray): IntArray {

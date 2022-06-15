@@ -1,4 +1,4 @@
-package kotlin.array
+
 
 class MaximumProductSubArray {
     fun maxProduct(nums: IntArray): Int {

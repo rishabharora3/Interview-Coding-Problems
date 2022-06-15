@@ -1,5 +1,5 @@
 public class CallerClass {
     public static void main(String[] args) {
-        new TwoSum().main();
+        new ThreeSum().main();
     }
 }

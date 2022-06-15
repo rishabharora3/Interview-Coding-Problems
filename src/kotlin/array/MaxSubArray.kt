@@ -1,5 +1,3 @@
-package kotlin.array
-
 class MaxSubArray {
     fun maxSubArray(nums: IntArray): Int {
         var max = Integer.MIN_VALUE

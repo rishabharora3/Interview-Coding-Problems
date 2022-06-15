@@ -1,4 +1,4 @@
-package kotlin.array
+
 
 class MinimumRotatedSortedArray {
 
