@@ -1,4 +1,4 @@
-package java.array;
+package javalang.array;
 
 public class MinimumRotatedSortedArray {
     public int findMin(int[] nums) {

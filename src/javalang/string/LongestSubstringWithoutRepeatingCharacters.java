@@ -1,4 +1,4 @@
-package java.string;
+package javalang.string;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 

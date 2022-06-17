@@ -1,4 +1,4 @@
-package java.array;
+package javalang.array;
 
 public class SearchRotatedSortedArray {
     public int search(int[] nums, int target) {

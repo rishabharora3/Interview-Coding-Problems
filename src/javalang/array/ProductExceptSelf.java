@@ -1,4 +1,4 @@
-package java.array;
+package javalang.array;
 
 public class ProductExceptSelf {
     public int[] productExceptSelf(int[] nums) {
