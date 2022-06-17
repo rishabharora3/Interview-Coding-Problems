@@ -1,5 +1,7 @@
+import linkedin.WordDistance;
+
 public class CallerClass {
     public static void main(String[] args) {
-        new ThreeSum().main();
+        new WordDistance(new String[]{"a","b"}).main();
     }
 }
