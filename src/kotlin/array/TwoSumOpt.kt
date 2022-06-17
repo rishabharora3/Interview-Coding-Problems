@@ -5,10 +5,7 @@ class TwoSumOpt {
         val hashmap = mutableMapOf<Int, Int>()
         for (i in nums.indices) {
             if (hashmap.containsKey(target - nums[i]) && hashmap[target - nums[i]] != i) {
-                val arr = IntArray(2)
-                arr[0] = i
-                arr[1] = hashmap[target - nums[i]]!!
-                return arr
+                return intArrayOf(hashmap[target - nums[i]]!!, i)
             }
             hashmap[nums[i]] = i
         }
