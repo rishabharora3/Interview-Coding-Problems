@@ -5,6 +5,7 @@ class MergeKSortedLists {
     class ListNode(var `val`: Int) {
         var next: ListNode? = null
     }
+
     fun mergeKLists(lists: Array<ListNode?>): ListNode? {
         val queue = PriorityQueue<ListNode?>(lists.size) { o1, o2 ->
             if (o1!!.`val` == o2!!.`val`) {
@@ -15,15 +16,15 @@ class MergeKSortedLists {
                 1
             }
         }
-        for(node in lists){
-            if(node!=null)
+        for (node in lists) {
+            if (node != null)
                 queue.add(node)
         }
         var dummy = ListNode(0)
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             dummy.next = queue.poll()
             dummy = dummy.next!!
-            if(dummy.next !=null){
+            if (dummy.next != null) {
                 queue.add(dummy.next)
             }
         }
