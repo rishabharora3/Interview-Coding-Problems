@@ -44,7 +44,6 @@ class ReorderList {
         }  else {
             fast?.next = null
         }
-
     }
 
     //test case 1
