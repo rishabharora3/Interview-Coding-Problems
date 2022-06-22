@@ -1,7 +1,6 @@
 
-
 public class CallerClass {
     public static void main(String[] args) {
-        new ReorderList().main();
+        new BinarySearch().main();
     }
 }
