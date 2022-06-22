@@ -1,4 +1,4 @@
-package linkedin
+package companytagged.linkedin
 
 import java.util.*
 

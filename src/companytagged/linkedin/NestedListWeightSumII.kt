@@ -1,4 +1,4 @@
-package linkedin
+package companytagged.linkedin
 
 class NestedListWeightSumII {
     /**

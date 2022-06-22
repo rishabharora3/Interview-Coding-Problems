@@ -1,4 +1,4 @@
-package linkedin
+package companytagged.linkedin
 
 class SortTransformedArray {
     fun sortTransformedArray(nums: IntArray, a: Int, b: Int, c: Int): IntArray {

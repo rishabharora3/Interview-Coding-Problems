@@ -1,4 +1,4 @@
-package linkedin
+package companytagged.linkedin
 
 class CanPlaceFlowers {
     fun canPlaceFlowers(flowerbed: IntArray, n: Int): Boolean {
