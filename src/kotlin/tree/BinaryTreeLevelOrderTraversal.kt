@@ -50,9 +50,20 @@ class BinaryTreeLevelOrderTraversal {
                     queue.offer(node.right)
                 }
             }
-            if (!sublist.isEmpty())
+            if (sublist.isNotEmpty())
                 result.add(sublist)
         }
         return result
+    }
+
+    //test
+    fun main() {
+        val root = TreeNode(3)
+        root.left = TreeNode(9)
+        root.right = TreeNode(20)
+        root.right!!.left = TreeNode(15)
+        root.right!!.right = TreeNode(7)
+//        println(levelOrder(root))
+        println(levelOrder1(root))
     }
 }
